@@ -1,0 +1,88 @@
+*{font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+ }
+html, body {
+  height: 100%;
+  width: 100%;
+
+}
+.header{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 10px;
+   
+}
+header h1{
+    color: rgb(214, 198, 74);
+    font-size: 50px;
+}
+a{
+    text-decoration: none;
+    color: rgb(214, 198, 74);
+    font-size: 20px;
+    
+}
+a:hover{
+    background-color: rgb(89, 179, 217);
+}
+main h5{
+/*    margin: 8rem 18rem 0rem 18rem; */
+    font-size: 2em;
+    text-align: left;
+    justify-content: center;
+    color: rgb(214, 198, 74);
+    margin: 0px;
+}
+
+main h2{
+/*    margin: 1rem 18rem 0rem 18rem; */
+    font-size: 3em;
+    text-align: left;
+    margin: 0px;
+/*     justify-content: center; */
+    color: rgb(214, 198, 74);
+/*     line-height: 65px; */
+
+}
+main h3{
+/*    margin: 1rem 18rem 0rem 18rem; */
+    font-size: 2em;
+    text-align: left;
+    margin: 0px;
+/*     justify-content: center; */
+    color: rgb(214, 198, 74);
+/*     line-height: 65px; */
+}
+main p{
+    text-align: left;
+    justify-content: center;
+    color: rgb(214, 198, 74);
+/*     margin: 1.5rem 35rem 3rem 18rem; */
+    font-size: x-large;
+
+}
+.section{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;    
+}
+
+.hero{
+    align-content: center;  
+    width: 200px;
+    background: grey;
+    border-radius: 5px;
+    color: black;
+}
+.btn{
+    border: none;
+    border-radius: 10px;
+    height: 50px;
+    width: 120px;
+    color:rgb(214, 198, 74);
+    margin: 0em 15em;
+    font-size: larger;
+    cursor: pointer;
+}
+
+

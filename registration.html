@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>registration</title>
+  <link href="registration.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <header>
+        <div class="header">
+        <h1>_At.</h1>
+        <nav>
+            <a href="./index.html">_About Me</a> |  
+            <a href="./contact.html">_Contact</a> |  
+            <a href="./login.html">_Login</a> |  
+        </nav>
+        </div>
+        
+    </header>
+
+   <main>
+        <form>
+          <div class="form">
+            <label for="firstname">FirstName</label>
+            <input required type="text" name="name"placeholder="firstname">
+          </div>
+          <div class="form">
+            <label for="lastname">LastName</label>
+            <input required type="text" name="lastname" placeholder="lastname">
+          </div>
+          <div class="form">
+            <label>Phone</label>
+            <input required type="number" min=11 maxlength=11 name="phone"placeholder="mobile number">
+          </div>
+          <div class="form">
+            <label for="gender">Gender</label>
+  
+          <select>
+          <option>Male</option>
+          <option>Female</option>
+          </select>
+          </div>
+          <div class="form">
+           <label for="country">Country</label>
+            <input required type="text" name="country"placeholder="country">
+          </div>
+          <div class="form">
+            <label for="state">State/Province</label>
+            <input type="text" name="state" placeholder="state/province">
+          </div>
+          <div class="form">
+            <label for="email">Email</label>
+            <input required type="email"  name="email"placeholder="example@mail.com">
+          </div>
+          <div class="form">
+           <label for="password">Password</label>
+            <input required type="text" name="password"placeholder="password">
+          </div>
+          <div class="form">
+            <label for="confirm-password">State/Province</label>
+            <input type="text" name="confirm-password" placeholder="confirm password">
+          </div>
+          <input type="submit" value="Submit" id="submit">
+        </form>
+     
+   </main>
+</body>
+</html>
