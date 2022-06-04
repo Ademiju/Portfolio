@@ -21,6 +21,7 @@
     </header>
 
    <main>
+      <h2 style="text-align:center">REGISTRATION</h2>
         <form>
           <div class="form">
             <label for="firstname">FirstName</label>
@@ -32,12 +33,15 @@
           </div>
           <div class="form">
             <label>Phone</label>
-            <input required type="number" min=11 maxlength=11 name="phone"placeholder="mobile number">
+            <input required type="tel" id="phone" name="phone"placeholder="mobile number">
           </div>
-          <div class="form">
-            <label for="gender">Gender</label>
-  
-          <select>
+               <label id="gender"for="gender">Gender</label>
+          <div class="gender">
+             <div>   
+            <h4>Please select 
+your gender</h4>
+              </div>
+          <select required name="gender" id="gender-select">
           <option>Male</option>
           <option>Female</option>
           </select>
@@ -59,10 +63,12 @@
             <input required type="text" name="password"placeholder="password">
           </div>
           <div class="form">
-            <label for="confirm-password">State/Province</label>
-            <input type="text" name="confirm-password" placeholder="confirm password">
+            <label for="confirm-password">Confirm Password</label>
+            <input required type="text" name="confirm-password" placeholder="confirm password">
           </div>
-          <input type="submit" value="Submit" id="submit">
+          
+          <div class="submit"><input type="submit" value="Submit" id="submit">
+            </div>
         </form>
      
    </main>

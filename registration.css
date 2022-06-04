@@ -3,51 +3,96 @@
 html, body {
   height: 100%;
   width: 100%;
+ background-color: #0b0c10;
+
 
 }
-.header{
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   margin: 10px;
-   
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px 35px;
 }
-header h1{
-    color: rgb(214, 198, 74);
-    font-size: 50px;
+header h1 {
+  color: #45a29e;
+  font-size: 50px;
 }
-a{
-    text-decoration: none;
-    color: rgb(214, 198, 74);
-    font-size: 20px;
-    
+h2{
+  color:#66fcf1;;
 }
-a:hover{
-    background-color: rgb(89, 179, 217);
+a {
+  text-decoration: none;
+  color: #45a29e;
+  font-size: 20px;
+}
+a:hover {
+  color: #c5c6c7;
 }
 
 .form{
   display: flex;
   flex-direction: column;
-  font-size: x-large
+  font-size: large;
+  align-items: left;
+  margin:4vh 40vw 0 25vw;
+  color: #45a29e;
   
 }
-#submit{
-  width: fit-content;
+input#submit{
+  width: 150px;
+  height: 60px;
   border-radius: 10px;
-  color: red;
+  margin-top: 10vh;
+  align-self: center; 
+  background-color: black;
+  font-size: 33px;
+  cursor: pointer;
+  margin-bottom: 10vh;
+  border: solid #45a29e;
+  color: #45a29e;
+}
+#submit:hover {
+  border: solid #66fcf1;
+  color: #c5c6c7;
+}
+.submit{
+  display: flex;
+  justify-content: center;
 }
 input{
-  border:solid black;
   height: 40px;
   border-radius:20px;
-  width:30em;
+  width:50vw;
+  background-color: #969699;
+  border: solid #45a29e;;
+}
+input#phone{
+  margin-bottom: 4vh;
+}
+
+h4{
+  color: #c5c6c7;
+  margin:0;
 }
 
 select{
   font-size: large;
-  height: 30px;
   width: fit-content;
+  height: 40px ;
   border-radius:10px;
+  background-color: #969699;
+  border: solid #45a29e;
   
+  
+}
+.gender{
+  display: flex ;
+  align-items: center;
+  margin:0vh 40vw 4vh 25vw;
+  
+}
+label#gender{
+  color: #45a29e;
+  font-size: large;
+  margin:4vh 40vw 0 25vw;
 }
